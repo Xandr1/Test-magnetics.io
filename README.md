@@ -1,14 +1,16 @@
-# magnetics-test
+# Magnetics Test Task
 
-По комиитам
+# Installation
+1. `npm install`
 
-1. Инит коммит приложения на Vue
-2. Настроенный ESLint
-3. Настроенный Приттьер
-4. Настроенный хук хаски на линт
-5. Форма логина+пароля с отправкой на сервер
-6. БОНУС: SSR на VUE или nuxt
-   результаты на max@magnetics.io
+# Run
+1. `npm run serve`
+2. `node server.js`
 
-результаты на max@magnetics.io
-@mxlpitelik
+# Tasks: 
+1. Init
+2. ESLint
+3. Prettier
+4. Husky
+5. Login/password form
+6*. SSR with VUE or Nuxt
