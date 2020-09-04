@@ -13,4 +13,4 @@
 3. Prettier
 4. Husky
 5. Login/password form
-6*. SSR with VUE or Nuxt
+6. (*) SSR with VUE or Nuxt

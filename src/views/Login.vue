@@ -8,8 +8,8 @@
               <h4>Login</h4>
             </v-card-title>
             <v-form>
-            <v-text-field name="username" label="username" v-model="username"></v-text-field>
-            <v-text-field name="password" label="password" type="password" v-model="password"></v-text-field>
+            <v-text-field name="Username" label="username" v-model="username"></v-text-field>
+            <v-text-field name="Password" label="password" type="password" v-model="password"></v-text-field>
             <v-card-actions>
               <v-btn @click="userLogin()" primary large block>
                 Login
