@@ -5,13 +5,11 @@ module.exports = {
 		browser: true,
 		es6: true
 	},
-	extends: ['plugin:vue/essential', 'eslint:recommended', '@vue/prettier'],
+	extends: ['plugin:vue/essential', 'eslint:recommended'],
 	parserOptions: {
 		parser: 'babel-eslint'
 	},
-	plugins: ['prettier'],
 	rules: {
-		'prettier/prettier': 'error',
 		'no-debugger': process.env.NODE_ENV === 'production' ? 'warn' : 'off',
 		'no-console': ['off'],
 		'no-var': ['error'],
